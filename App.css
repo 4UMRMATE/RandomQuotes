@@ -20,13 +20,12 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   height: 100vh;
-  transition: 1s;
 }
 
 .footer {
@@ -100,8 +99,7 @@ body {
   opacity: 0.9;
 }
 
-#quote-box .buttons .button#tweet-quote,
-#quote-box .buttons .button#tumblr-quote {
+#quote-box .buttons .button#tweet-quote, #quote-box .buttons .button#tumblr-quote {
   float: left;
   padding: 0px;
   padding-top: 8px;
